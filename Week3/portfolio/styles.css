@@ -1,0 +1,127 @@
+/*
+
+.baskervville-<uniquifier> {
+  font-family: "Baskervville", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+* {
+    --base: #ffffff;
+    --borderColor: #8b8982;
+    --cardColors: #aaabbc;
+    --accentColor: #6c91c2;
+    color: white;
+}
+
+body {
+    background-color: #373f47;
+    background-image: url(./assets/css-pattern-by-magicpattern.png);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    font-family: "Dancing Script", cursive;
+    color: var(--accentColor); 
+    font-size: 32px;
+    opacity: .82;
+}
+
+header::first-letter{
+    font-size: 48px;
+}
+
+.title{
+    font-family: "Baskervville", serif;
+        font-weight: 600;
+        font-style: normal;
+    font-size: 12px;
+    margin-bottom: 32px;
+    line-height: 84px;
+}
+
+h2{
+    font-family: "Baskervvile", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36px;
+        margin-bottom: 32px;
+        text-transform: uppercase;
+}
+
+.cards > div {
+    background-color: var(--cardColors);
+    padding: 16px;
+    border: .5px solid var(--borderColor);
+    border-radius: 8px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    transition: all 500ms;
+}
+
+.cards div:hover{
+    box-shadow: 8px 8px var(--accentColor);
+}
+
+.cards div > img {
+    width: 7%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 1px 1px rgba(255, 255, 255, 0.418);
+
+}
+
+h3 {
+    color:#ffffff;
+        font-family: "Baskervvile", serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 126.637%
+        text-transform: uppercase;
+}
+
+
+.education > ul {
+    background-color: var(--cardColors);
+    font-size: 12px;
+    list-style-image: url(./assets/heart.svg)
+}
+
+.education > ul li {
+    padding: 9px;
+}
+
+.work > ul {
+    background-color: var(--cardColors);
+    font-size: 12px;
+    list-style-image: url(./assets/heart.svg)
+}
+
+.work > ul li {
+    padding: 9px;
+}
+
+.year {
+    color: var(--accentColor);
+}
