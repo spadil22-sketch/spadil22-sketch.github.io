@@ -1,0 +1,60 @@
+
+
+/*
+
+.peralta-regular {
+  font-family: "Peralta", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+body {
+    background-color: #b30000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 500px;
+    height: 750px;
+    background-color: #660033;
+    padding: 36px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.card h1 {
+    color: #ffcc99;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ff9999;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color:darkslategray;
+    color: white;
+    border-radius: 6px;
+}
+
+.card button:hover {
+    background-color:palevioletred;
+}
