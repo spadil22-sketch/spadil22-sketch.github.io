@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="greeting">Welcome!</h1>
+        <button id="themeBtn">Change Theme</button>
+        <button id="menuBtn">☰ Menu</button>
+    </header>
+
+    <nav id="menu" class="hidden">
+        <ul>
+            <li>Home</li>
+            <li>Tasks</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button id="addTask">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+
+        <section class="card">
+            <h2>Hover Me!</h2>
+            <p>This card changes on hover.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
